@@ -986,6 +986,7 @@ section.upcoming-meetings .categories .main-button-red a {
   margin-right: 20px;
 }
 
+/* 对应主页中课程展示的专业名样式 */
 .meeting-item .down-content .date h6 {
   font-size: 13px;
   text-transform: uppercase;
@@ -993,13 +994,17 @@ section.upcoming-meetings .categories .main-button-red a {
   color: #a12c2f;
 }
 
+/* 对应主页中课程展示的课程/书名样式 */
 .meeting-item .down-content .date span {
   display: block;
   color: #1f272b;
-  font-size: 22px;
+
+  /*  */
+  font-size:18px;
   margin-top: 7px;
 }
 
+/* 主页中的章节名样式 */
 .meeting-item .down-content h4 {
   font-size: 18px;
   color: #1f272b;
@@ -1008,6 +1013,7 @@ section.upcoming-meetings .categories .main-button-red a {
   margin-bottom: 15px;
 }
 
+/* 主页中的章节摘要 */
 .meeting-item .down-content p {
   margin-left: 50px;
   color: #1f272b;
