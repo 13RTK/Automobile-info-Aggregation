@@ -8,9 +8,15 @@ async function run() {
         const ratings = database.collection("posts");
         const cursor = ratings.find({ "category": 'News' });
 
-        await cursor.forEach(doc => console.log(doc));
+        let arr = await cursor.toArray();
+
+        for (let idx = 0; idx < arr.length; idx++) {
+            console.log(arr[idx]);
+        }
+        console.log(arr.length);
+
     } finally {
         await client.close();
     }
 }
-run().catch(console.dir);
+run();
