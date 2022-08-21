@@ -977,13 +977,14 @@ section.upcoming-meetings .categories .main-button-red a {
   padding: 30px;
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
+  text-align: center;
 }
 
 .meeting-item .down-content .date {
-  float: left;
+  /* float: left; */
   text-align: center;
   display: inline-block;
-  margin-right: 20px;
+  margin: 0 auto;
 }
 
 /* 对应主页中课程展示的专业名样式 */
@@ -992,6 +993,8 @@ section.upcoming-meetings .categories .main-button-red a {
   text-transform: uppercase;
   font-weight: 600;
   color: #a12c2f;
+  text-align: center;
+  margin: 0 auto;
 }
 
 /* 对应主页中课程展示的课程/书名样式 */
@@ -999,9 +1002,9 @@ section.upcoming-meetings .categories .main-button-red a {
   display: block;
   color: #1f272b;
 
-  /*  */
   font-size:18px;
   margin-top: 7px;
+  text-align: center; 
 }
 
 /* 主页中的章节名样式 */
